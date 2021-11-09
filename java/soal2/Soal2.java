@@ -9,10 +9,10 @@
 
 public class Soal2 {
     public static void main(String[] args) {
-        Makhluk kocengOren = new Kucing("Esmeralda", 3);
-        ((Kucing) kocengOren).setMerekMakanan("Royal Canine");
-        ((Kucing) kocengOren).setRas("Kampung");
+        Makhluk kochenkOren = new Kucing("Esmeralda", 3);
+        ((Kucing) kochenkOren).setRas("Kampung");
+        ((Kucing) kochenkOren).setMerekMakanan("Royal Canine");
 
-        kocengOren.info();
+        kochenkOren.info();
     }
 }

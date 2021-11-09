@@ -9,7 +9,10 @@
 
 from Kucing import Kucing
 
-kocengOren = Kucing("Esmeralda",3)
-kocengOren.setRas("Kampung")
-kocengOren.setMerekMakanan("Royal Canine")
-kocengOren.info()
+kochenkOren = Kucing("Esmeralda", 3)
+kochenkOren.setRas("Kampung")
+kochenkOren.setMerekMakanan("Royal Canine")
+# kochenkOren memanggil fungsi dari parent class
+kochenkOren.setHabitat("area sekitar rumahmu")
+# menampilkan info dari kochenkOren
+kochenkOren.info()

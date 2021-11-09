@@ -14,8 +14,10 @@ using namespace std;
 
 int main()
 {
-    Makhluk *kocengOren = new Kucing("Esmeralda", 3);
-    (dynamic_cast<Kucing *>(kocengOren))->setRas("Kampung");
-    (dynamic_cast<Kucing *>(kocengOren))->setMerekMakanan("Royal Canine");
-    (dynamic_cast<Kucing *>(kocengOren))->info();
+    // init kochenkOren sebagai class Makhluk
+    Makhluk *kochenkOren = new Kucing("Esmeralda", 3);
+    // lakukan dynamic cast ke class Kucing
+    (dynamic_cast<Kucing *>(kochenkOren))->setRas("Kampung");
+    (dynamic_cast<Kucing *>(kochenkOren))->setMerekMakanan("Royal Canine");
+    (dynamic_cast<Kucing *>(kochenkOren))->info();
 }

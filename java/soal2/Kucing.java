@@ -35,7 +35,7 @@ public class Kucing extends Mamalia {
 
     public void info() {
         super.info();
-        System.out.println("Dia adalah kucing dengan ras " + this.ras + " dan makanan kesukaannya adalah dari "
+        System.out.println("Dia adalah kucing dengan ras " + this.ras + " dan makanan kesukaannya adalah "
                 + this.merekMakanan + '.');
     }
 }

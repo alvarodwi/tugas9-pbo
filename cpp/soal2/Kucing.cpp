@@ -44,6 +44,6 @@ public:
     void info()
     {
         this->Mamalia::info();
-        cout << "Dia adalah kucing dengan ras " << this->ras << " dan makanan kesukaannya adalah dari " << this->merekMakanan << '.' << endl;
+        cout << "Dia adalah kucing dengan ras " << this->ras << " dan makanan kesukaannya adalah " << this->merekMakanan << '.' << endl;
     }
 };

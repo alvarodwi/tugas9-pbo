@@ -20,9 +20,8 @@ private:
     HasilSidang hasil;
 
 public:
-    Student(string npm, string nama)
+    Student(string npm, string nama) : Person { nama }
     {
-        this->Person::nama = nama;
         this->npm = npm;
         this->hasil = HasilSidang();
     }
