@@ -10,7 +10,7 @@
 #include <iostream>
 #include <string>
 #include "Student.cpp"
-
+#include "Employee.cpp"
 using namespace std;
 
 int main()
@@ -18,4 +18,11 @@ int main()
     Student ujang = Student();
     ujang.inputMahasiswa();
     ujang.outputMahasiswa();
+    cout << "\n-------------\n"
+         << endl;
+
+    Employee pegawai = Employee(200, "Udin");
+    pegawai.setWaktuMasuk(Waktu(7, 30, 0));
+    pegawai.setWaktuPulang(Waktu(17, 30, 0));
+    pegawai.printInfo();
 }

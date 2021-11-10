@@ -6,6 +6,7 @@
                             - Rafiansyah Rasyid Wikawang    (140810200049)
     Tanggal               : 8/11/2021
 */
+#pragma once
 #include <iostream>
 #include <string>
 

@@ -12,9 +12,19 @@ import java.util.Scanner;
 public class Soal1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Student ujang = new Student();
-        ujang.inputMahasiswa(sc);
-        ujang.outputMahasiswa();
+
+        // test student
+        Student mhs = new Student();
+        mhs.inputMahasiswa(sc);
+        mhs.outputMahasiswa();
+        System.out.println("\n-------------\n");
+
+        // test employee
+        Employee emp = new Employee(1, "Andi");
+        emp.setWaktuMasuk(new Waktu(7, 30, 0));
+        emp.setWaktuPulang(new Waktu(17, 30, 0));
+        emp.printInfo();
+
         sc.close();
     }
 }
